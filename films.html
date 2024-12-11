@@ -9,11 +9,11 @@
   </head>
   <body>
     <header class="header">
-      <a class="header__logoLink" href="/">
+      <a class="header__logo-link" href="/">
         <img src="/assets/icons/icon_logo.svg" alt="logo" />
-        <h3>Ça va trail'ler</h3>
+        <h3 class="header__title">Ça va trail'ler</h3>
       </a>
-      <button>EN</button>
+      <button class="header__lang-btn">EN</button>
       <button
         class="header__menu-btn menu-btn"
         aria-label="menu"
@@ -51,21 +51,329 @@
     <main>
       <div class="hero hero--home">
         <img
-          src="/assets/bandeaux_pages/bandeaux_invite.webp"
+          class="hero__img"
+          src="/assets/bandeaux_pages/bandeaux_films.webp"
           alt="bandeaux_invite"
         />
       </div>
       <section class="section">
-        <h2 class="section__title">Programme</h2>
+        <h2 class="section__title">Les films</h2>
         <p class="section__chapo">
           Découvrez une sélection inspirante de films dédiés à l'univers du
           trail running, mêlant dépassement de soi, aventure et paysages à
           couper le souffle.
         </p>
       </section>
+      <section class="movies">
+        <article class="movie">
+          <div class="movie__info">
+            <p class="movie__author">
+              Réalisation : Simon Dugué<br />
+              Athlète : Aurélien Dunand-Pallaz
+            </p>
+            <p class="movie__detail">
+              Lundi 15 avril 2025<br />
+              <strong>10h00</strong><br />
+              Salle 1
+            </p>
+          </div>
+          <div class="movie__content">
+            <img
+              class="movie__img"
+              src="/assets/films/film_vers-les-sommets.webp"
+              alt="Affiche vers les sommets"
+            />
+            <h3 class="movie__title">THE GOLD RUSH</h3>
+            <p class="movie__data">(2023, USA, 18 minutes)</p>
+            <button class="movie__button">EXPLOREZ "THE GOLD RUSH"</button>
+          </div>
+        </article>
+
+        <article class="movie">
+          <div class="movie__info">
+            <p class="movie__author">Réalisation : Romain Saubion<br /></p>
+            <p class="movie__detail">
+              Lundi 15 avril 2025<br />
+              <strong>14h00</strong><br />
+              Salle 2
+            </p>
+          </div>
+          <div class="movie__content">
+            <img
+              class="movie__img"
+              src="/assets/films/film_lenvol.webp"
+              alt="Affiche l'envol"
+            />
+            <h3 class="movie__title">L'ENVOL - Blandine L'hirondel</h3>
+            <p class="movie__data">(2022, France, 36 minutes 30)</p>
+            <button class="movie__button">EXPLOREZ "L'ENVOL"</button>
+          </div>
+        </article>
+
+        <article class="movie">
+          <div class="movie__info">
+            <p class="movie__author">
+              Réalisation : Julien Raison<br />
+              Écrit par Aurélien Delfosse et Alexis Berg
+            </p>
+            <p class="movie__detail">
+              Mardi 16 avril 2025<br />
+              <strong>10h00</strong><br />
+              Salle 1
+            </p>
+          </div>
+          <div class="movie__content">
+            <img
+              class="movie__img"
+              src="/assets/films/film_la-course-en-tete.webp"
+              alt="Affiche la course en tete"
+            />
+            <h3 class="movie__title">LA COURSE EN TÊTE FESTIVAL CUT</h3>
+            <p class="movie__data">(2022, France, 15 minutes)</p>
+            <button class="movie__button">EXPLOREZ "LA COURSE EN TÊTE"</button>
+          </div>
+        </article>
+
+        <article class="movie">
+          <div class="movie__info">
+            <p class="movie__author">Réalisation : Carrie et Tim Highman<br /></p>
+            <p class="movie__detail">
+              Mardi 16 avril 2025<br />
+              <strong>14h00</strong><br />
+              Salle 2
+            </p>
+          </div>
+          <div class="movie__content">
+            <img
+              class="movie__img"
+              src="/assets/films/film_free-to-run.webp"
+              alt="Affiche free to run"
+            />
+            <h3 class="movie__title">FREE TO RUN</h3>
+            <p class="movie__data">(2021, USA, 31 minutes)</p>
+            <button class="movie__button">EXPLOREZ "FREE TO RUN"</button>
+          </div>
+        </article>
+
+        <article class="movie">
+          <div class="movie__info">
+            <p class="movie__author">Réalisation : Jean-Baptiste Bieuville<br /></p>
+            <p class="movie__detail">
+              Mercredi 17 avril 2025<br />
+              <strong>10h00</strong><br />
+              Salle 1
+            </p>
+          </div>
+          <div class="movie__content">
+            <img
+              class="movie__img"
+              src="/assets/films/film_vers-les-sommets.webp"
+              alt="Affiche vers les sommets"
+            />
+            <h3 class="movie__title">VERS LES SOMMET</h3>
+            <p class="movie__data">(France, 16 minutes)</p>
+            <button class="movie__button">EXPLOREZ "VERS LES SOMMETS"</button>
+          </div>
+        </article>
+
+        <article class="movie">
+          <div class="movie__info">
+            <p class="movie__author">Réalisation : Billy Yang & Tony Hills<br /></p>
+            <p class="movie__detail">
+              Mercredi 17 avril 2025<br />
+              <strong>14h00</strong><br />
+              Salle 2
+            </p>
+          </div>
+          <div class="movie__content">
+            <img
+              class="movie__img"
+              src="/assets/films/film_return-to-leadville.webp"
+              alt="Affiche return to leadville"
+            />
+            <h3 class="movie__title">RETURN TO LEADVILLE</h3>
+            <p class="movie__data">(2023, USA, 18 minutes)</p>
+            <button class="movie__button">EXPLOREZ "RETURN TO LEADVILLE"</button>
+          </div>
+        </article>
+
+        <article class="movie">
+          <div class="movie__info">
+            <p class="movie__author">Réalisation : Thomas Woodson<br /></p>
+            <p class="movie__detail">
+              Jeudi 18 avril 2025<br />
+              <strong>10h00</strong><br />
+              Salle 1
+            </p>
+          </div>
+          <div class="movie__content">
+            <img
+              class="movie__img"
+              src="/assets/films/film_tempo-ii.webp"
+              alt="Affiche vers les sommets"
+            />
+            <h3 class="movie__title">TEMPO II - MOVEMENTS IN JUNGLE</h3>
+            <p class="movie__data">(2023, USA, 18 minutes)</p>
+            <button class="movie__button">EXPLOREZ "TEMPO II"</button>
+          </div>
+        </article>
+
+        <article class="movie">
+          <div class="movie__info">
+            <p class="movie__author">Réalisation : Max Romey<br /></p>
+            <p class="movie__detail">
+              Lundi 18 avril 2025<br />
+              <strong>14h00</strong><br />
+              Salle 2
+            </p>
+          </div>
+          <div class="movie__content">
+            <img
+              class="movie__img"
+              src="/assets/films/film_trailbound-alaska.webp"
+              alt="Affiche trailbound alaska"
+            />
+            <h3 class="movie__title">TRAILBOUND ALASKA</h3>
+            <p class="movie__data">(USA, 26 minutes)</p>
+            <button class="movie__button">EXPLOREZ "TRAILBOUND ALASKA"</button>
+          </div>
+        </article>
+
+        <article class="movie">
+          <div class="movie__info">
+            <p class="movie__author">Réalisation : Kirk Horton & Simon Perkins<br /></p>
+            <p class="movie__detail">
+              Vendredi 19 avril 2025<br />
+              <strong>10h00</strong><br />
+              Salle 1
+            </p>
+          </div>
+          <div class="movie__content">
+            <img
+              class="movie__img"
+              src="/assets/films/film_for-the-love-of-mary.webp"
+              alt="Affiche for the love of mary"
+            />
+            <h3 class="movie__title">FOR THE LOVE OF MARY</h3>
+            <p class="movie__data">(USA, 6 minutes 17)</p>
+            <button class="movie__button">EXPLOREZ "FOR THE LOVE OF MARY"</button>
+          </div>
+        </article>
+
+        <article class="movie">
+          <div class="movie__info">
+            <p class="movie__author">
+              Réalisation : Justin Galant<br />
+              Athlète : Martin Kern
+            </p>
+            <p class="movie__detail">
+              Vendredi 19 avril 2025<br />
+              <strong>14h00</strong><br />
+              Salle 2
+            </p>
+          </div>
+          <div class="movie__content">
+            <img
+              class="movie__img"
+              src="/assets/films/film_pic-a-pic.webp"
+              alt="Affiche vers les sommets"
+            />
+            <h3 class="movie__title">PIC A PIC</h3>
+            <p class="movie__data">(2023, France, 15 minutes)</p>
+            <button class="movie__button">EXPLOREZ "PIC A PIC"</button>
+          </div>
+        </article>
+
+        <article class="movie">
+          <div class="movie__info">
+            <p class="movie__author">Réalisation : IA<br /></p>
+            <p class="movie__detail">
+              Samedi 20 avril 2025<br />
+              <strong>10h00</strong><br />
+              Salle 1
+            </p>
+          </div>
+          <div class="movie__content">
+            <img
+              class="movie__img"
+              src="/assets/films/film_lombre-du-sommet.webp"
+              alt="Affiche l'ombre du sommet"
+            />
+            <h3 class="movie__title">L'OMBRE DU SOMMET</h3>
+            <p class="movie__data">(2024, France, 10 minutes)</p>
+            <button class="movie__button">EXPLOREZ "L'OMBRE DU SOMMET"</button>
+          </div>
+        </article>
+
+        <article class="movie">
+          <div class="movie__info">
+            <p class="movie__author">Réalisation : IA <br /></p>
+            <p class="movie__detail">
+              Samedi 20 avril 2025<br />
+              <strong>14h00</strong><br />
+              Salle 2
+            </p>
+          </div>
+          <div class="movie__content">
+            <img
+              class="movie__img"
+              src="/assets/films/film_horizons-infini.webp"
+              alt="Affiche vers les sommets"
+            />
+            <h3 class="movie__title">HORIZONS INFINI</h3>
+            <p class="movie__data">(2025, France, 12 minutes)</p>
+            <button class="movie__button">EXPLOREZ "HORIZONS INFINI"</button>
+          </div>
+        </article>
+
+        <article class="movie">
+          <div class="movie__info">
+            <p class="movie__author">
+              Réalisation : Colin Olivero<br />
+              Athlète : Marie Goncalves
+            </p>
+            <p class="movie__detail">
+              Dimanche 21 avril 2025<br />
+              <strong>10h00</strong><br />
+              Salle 1
+            </p>
+          </div>
+          <div class="movie__content">
+            <img
+              class="movie__img"
+              src="/assets/films/film_nuit-blanche.webp"
+              alt="Affiche nuit blanche"
+            />
+            <h3 class="movie__title">NUIT BLANCHE</h3>
+            <p class="movie__data">(2023, France, 26 minutes)</p>
+            <button class="movie__button">EXPLOREZ "NUIT BLANCHE"</button>
+          </div>
+        </article>
+
+        <article class="movie">
+          <div class="movie__info">
+            <p class="movie__author">Réalisation : Romain Saubion<br /></p>
+            <p class="movie__detail">
+              Dimanche 21 avril 2025<br />
+              <strong>14h00</strong><br />
+              Salle 2
+            </p>
+          </div>
+          <div class="movie__content">
+            <img
+              class="movie__img"
+              src="/assets/films/film_terminorum.webp"
+              alt="Affiche terminorium"
+            />
+            <h3 class="movie__title">TERMINORIUM</h3>
+            <p class="movie__data">(2023, France, 15 minutes)</p>
+            <button class="movie__button">EXPLOREZ "TERMINORIUM"</button>
+          </div>
+        </article>
+      </section>
     </main>
     <footer class="footer">
-      <a href="/">
+      <a class="footer__logo-link" href="/">
         <img src="/assets/icons/icon_logo.svg" alt="logo" />
         <h3 class="footer__title">Ça va trail'er</h3>
       </a>
@@ -74,23 +382,25 @@
         <h3 class="footer__contact-title">CONTACT</h3>
         <p class="footer__contact-email">cavatrailer@festival.com</p>
       </div>
-      <div class="footer__social-links">
+      <div class="footer__social">
         <p class="footer__social-title">NOUS SUIVRE</p>
-        <a class="footer__social-link" href="">
-          <img src="/assets/icons/icon_facebook-blanc.svg" alt="facebook" />
-        </a>
-        <a class="footer__social-link" href="">
-          <img src="/assets/icons/icon_insta-blanc.svg" alt="instagram" />
-        </a>
-        <a class="footer__social-link" href="">
-          <img src="/assets/icons/icon_youtube-blanc.svg" alt="twitter" />
-        </a>
-        <a class="footer__social-link" href="">
-          <img src="/assets/icons/icon_strava-blanc.svg" alt="instagram" />
-        </a>
-        <a class="footer__social-link" href="">
-          <img src="/assets/icons/icon_tiktok-blanc.svg" alt="twitter" />
-        </a>
+        <div class="footer__social-links">
+          <a class="footer__social-link" href="">
+            <img src="/assets/icons/icon_facebook-blanc.svg" alt="facebook" />
+          </a>
+          <a class="footer__social-link" href="">
+            <img src="/assets/icons/icon_insta-blanc.svg" alt="instagram" />
+          </a>
+          <a class="footer__social-link" href="">
+            <img src="/assets/icons/icon_youtube-blanc.svg" alt="twitter" />
+          </a>
+          <a class="footer__social-link" href="">
+            <img src="/assets/icons/icon_strava-blanc.svg" alt="instagram" />
+          </a>
+          <a class="footer__social-link" href="">
+            <img src="/assets/icons/icon_tiktok-blanc.svg" alt="twitter" />
+          </a>
+        </div>
       </div>
     </footer>
   </body>
