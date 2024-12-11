@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ca va trailer</title>
+    <link rel="stylesheet" href="/src/css/style.css" />
+    <script type="module" src="/src/js/script.js"></script>
+  </head>
+  <body>
+    <header class="header">
+      <a class="header__logoLink" href="/">
+        <img src="/assets/icons/icon_logo.svg" alt="logo" />
+        <h3>Ça va trail'ler</h3>
+      </a>
+      <button>EN</button>
+      <button
+        class="header__menu-btn menu-btn"
+        aria-label="menu"
+        aria-expanded="false"
+        aria-controls="mainNav"
+      >
+        <span class="menu-btn__bar" aria-hidden="true"></span>
+      </button>
+      <nav class="header__menu menu" id="mainNav" aria-hidden="true">
+        <ul class="menu__list list-unstyled">
+          <li class="menu__item">
+            <a class="menu__link" href="/index.html">Le festival</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="/invites.html">Invités</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">Programme</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">Les films</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">À propos</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">Infos pratiques</a>
+          </li>
+          <li class="menu__item">
+            <a class="menu__link" href="">Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="hero hero--home">
+        <img
+          src="/assets/bandeaux_pages/bandeaux_programme.webp"
+          alt="bandeaux_programme"
+        />
+      </div>
+      <section class="section">
+        <h2 class="section__title">Programme</h2>
+        <p class="section__chapo">
+          Découvrez la programmation complète de "Ça va trai'ler" et plongez
+          dans une semaine riche en films, rencontres et ateliers autour du
+          trail running. Chaque jour, de nouvelles projections et événements
+          vous attendent pour une immersion totale dans l'univers du sport et de
+          la nature.
+        </p>
+      </section>
+      <div class="cta">
+        <p class="cta__description">
+          Découvrez les films captivants du festival "Ça va trail’er" !
+        </p>
+        <button class="cta__button">VOIR LES FILMS</button>
+      </div>
+      <section class="program">
+        <div class="program__day">
+          <img
+            class="program__img"
+            src="/assets/programme/programme_lundi.webp"
+            alt="programme lundi"
+          />
+          <h3 class="program__title">Lundi 15 avril 2025</h3>
+          <p class="program__description">
+            Ouverture avec une projection spéciale et une rencontre avec
+            Aurélien Dunand-Pallaz. Immersion totale dans l’univers du trail.
+          </p>
+        </div>
+        <div class="program__day">
+          <img
+            class="program__img"
+            src="/assets/programme/programme_mardi.webp"
+            alt="programme mardi"
+          />
+          <h3 class="program__title">Mardi 16 avril 2025</h3>
+          <p class="program__description">
+            Courts-métrages sur le dépassement de soi et les défis extrêmes,
+            suivis d’une discussion avec les réalisateurs.
+          </p>
+        </div>
+        <div class="program__day">
+          <img
+            class="program__img"
+            src="/assets/programme/programme_mercredi.webp"
+            alt="programme mercredi"
+          />
+          <h3 class="program__title">Mercredi 17 avril 2025</h3>
+          <p class="program__description">
+            Journée dédiée aux films inspirés par la nature sauvage et les
+            paysages extrêmes, en plein air avec écran LED.
+          </p>
+        </div>
+        <div class="program__day">
+          <img
+            class="program__img"
+            src="/assets/programme/programme_jeudi.webp"
+            alt="programme jeudi"
+          />
+          <h3 class="program__title">Jeudi 18 avril 2025</h3>
+          <p class="program__description">
+            Expérience unique en réalité virtuelle, plongez dans un trail
+            mythique comme si vous y étiez, suivi d’un débat.
+          </p>
+        </div>
+        <div class="program__day">
+          <img
+            class="program__img"
+            src="/assets/programme/programme_vendredi.webp"
+            alt="programme vendredi"
+          />
+          <h3 class="program__title">Vendredi 19 avril 2025</h3>
+          <p class="program__description">
+            Focus sur les documentaires, avec un échange entre athlètes et
+            cinéastes sur la préparation mentale et physique.
+          </p>
+        </div>
+        <div class="program__day">
+          <img
+            class="program__img"
+            src="/assets/programme/programme_samedi.webp"
+            alt="programme samedi"
+          />
+          <h3 class="program__title">Samedi 20 avril 2025</h3>
+          <p class="program__description">
+            Séances interactives et films réalisés par IA, démontrant l’impact
+            des nouvelles technologies dans l’art du cinéma.
+          </p>
+        </div>
+        <div class="program__day">
+          <img
+            class="program__img"
+            src="/assets/programme/programme_dimanche.webp"
+            alt="programme dimanche"
+          />
+          <h3 class="program__title">Dimanche 21 avril 2025</h3>
+          <p class="program__description">
+            Clôture du festival avec la projection du court-métrage primé et une
+            cérémonie célébrant les athlètes et réalisateurs.
+          </p>
+        </div>
+      </section>
+      <div class="activities">
+        <h3 class="activities__title">Activités annexes</h3>
+        <ul class="activities__list">
+          <li class="activities__item">
+            Ateliers pratiques : Initiez-vous à la création de vidéos outdoor,
+            au storytelling, ou à la prise de vues en pleine nature avec des
+            professionnels.
+          </li>
+          <li class="activities__item">
+            Expositions visuelles : Admirez des photographies et œuvres d’art
+            mettant en scène la beauté des paysages et les défis du trail
+            running.
+          </li>
+          <li class="activities__item">
+            Animations familiales : Participez à des quizz sur le cinéma et le
+            sport, des projections en plein air, et des activités pour les
+            enfants.
+          </li>
+        </ul>
+      </div>
+
+      <div class="program-download">
+        <h3 class="program-download__title">
+          Télécharger le programme complet
+        </h3>
+        <p class="program-download__description">
+          Pour connaître tous les horaires, lieux et détails des événements,
+          téléchargez le programme en PDF via le lien suivant :
+          <a href="#" class="program-download__link"
+            >Télécharger le programme complet</a
+          >
+        </p>
+      </div>
+    </main>
+    <footer class="footer">
+      <a href="/">
+        <img src="/assets/icons/icon_logo.svg" alt="logo" />
+        <h3 class="footer__title">Ça va trail'er</h3>
+      </a>
+      <button class="footer__button">billeterie</button>
+      <div class="footer__contact">
+        <h3 class="footer__contact-title">CONTACT</h3>
+        <p class="footer__contact-email">cavatrailer@festival.com</p>
+      </div>
+      <div class="footer__social-links">
+        <p class="footer__social-title">NOUS SUIVRE</p>
+        <a class="footer__social-link" href="">
+          <img src="/assets/icons/icon_facebook-blanc.svg" alt="facebook" />
+        </a>
+        <a class="footer__social-link" href="">
+          <img src="/assets/icons/icon_insta-blanc.svg" alt="instagram" />
+        </a>
+        <a class="footer__social-link" href="">
+          <img src="/assets/icons/icon_youtube-blanc.svg" alt="twitter" />
+        </a>
+        <a class="footer__social-link" href="">
+          <img src="/assets/icons/icon_strava-blanc.svg" alt="instagram" />
+        </a>
+        <a class="footer__social-link" href="">
+          <img src="/assets/icons/icon_tiktok-blanc.svg" alt="twitter" />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>

@@ -3,11 +3,11 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
+- NOM : THIERRY
+- PRÉNOM : Bryan 
+- GROUPE : C2
 - URL du site :
-- URL FIGMA :
+- URL FIGMA : 
 
 ## Sujet
 
