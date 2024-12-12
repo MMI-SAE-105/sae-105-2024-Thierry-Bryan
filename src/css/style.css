@@ -17,3 +17,8 @@
 /* Components */
 @import "components/menu.css";
 @import "components/hero.css";
+@import "components/section.css";
+@import "components/intro.css";
+@import "components/button.css";
+@import "components/cta.css";
+@import "components/work.css";
