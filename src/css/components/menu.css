@@ -1,14 +1,14 @@
 .menu {
     visibility: hidden;
-    position: absolute;
+    position: fixed;
     display: flex;
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
     z-index: 1;
-    background-color: black;
-    color: white;
+    background-color: var(--blanc);
+    color: var(--blanc);
     flex-direction: column;
     justify-content: space-between;
     padding: 50px;
@@ -16,25 +16,100 @@
 
 .menu[aria-hidden="false"] {
     visibility: visible;
+    transform: translateX(0);
 }
 
 .menu-btn {
-    background-color: transparent;
-    right: 0;
+    position: relative;
+    background-color:transparent;
     display: flex;
-    width: 45px;
+    width: 32px;
     height: 45px;
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
-    bottom: 15px;
     z-index: 2;
-    border: 2px solid var(--white);
-    color: var(--white);
+    border: none;
+    color: white;
+    padding: 10px;
 }
 
-.menu-btn__bar {
+.menu-btn__bar,
+.menu-btn__bar::before,
+.menu-btn__bar::after {
     content: "";
-    background-color: aqua;
+    position: absolute;
+    left: 0;
+    background-color: white;
+    height: 2px;
+    width: 100%;
+    border-radius: 5px;
+    transition: all 0.4s ease-in-out;
 }
 
+.menu-btn__bar::before {
+    top: 10px;
+}
+.menu-btn__bar::after {
+    top: -10px;
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(135deg);
+    background: var(--rouge);
+}
+
+.menu-btn[aria-expanded="true"] .menu-btn__bar::before,
+.menu-btn[aria-expanded="true"] .menu-btn__bar::after {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+.menu__list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    gap: 30px;
+    margin-top: 146px;
+}
+
+.menu__link {
+    text-decoration: none;
+    font-family: var(--font-secondary);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    color: var(--noir);
+    font-weight: bold;
+
+}
+.menu__social {
+    align-items: center;
+    justify-content: center;
+
+}
+
+.menu__social-title {
+    display: flex;
+    color: var(--rouge);
+    font-weight: bold;
+    text-align: center;
+}
+
+.menu__social-links {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.menu__social-img {
+    width: auto;
+    height: auto;
+}

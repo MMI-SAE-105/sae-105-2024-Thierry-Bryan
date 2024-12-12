@@ -23,7 +23,7 @@ header {
 }
 
 .header__logo-title {
-    font-family: 'League Gothic', sans-serif;
+    font-family: var(--font-secondary);
     font-size: 25px;
     font-weight: 700;
     color: var(--blanc);
