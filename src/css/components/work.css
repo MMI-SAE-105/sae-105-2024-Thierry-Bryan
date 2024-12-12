@@ -1,3 +1,7 @@
+.work {
+    margin-top: 40px;
+} 
+
 .work__title {
     font-family: var(--font-secondary);
     font-size: 18px;
@@ -25,4 +29,12 @@
     border: solid 2px var(--rouge);
     padding: 20px 37px;
     border-radius: 20px;
+}
+
+.work__subtitle {
+    margin-bottom: 0;
+}
+
+.work__list {
+    margin-top: 10px;
 }
