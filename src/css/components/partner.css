@@ -1,0 +1,17 @@
+.partner__title {
+    font-family: var(--font-secondary);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.partner__imgs {
+    padding: 20px;
+}
+
+.partners__img {
+    width: 180px;
+    height: 102.99px;
+    flex-shrink: 0;
+}

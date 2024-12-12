@@ -19,3 +19,15 @@
     margin-bottom: 36px;
 
 }
+
+.intro__description {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    margin-bottom: 35px;
+}
+
+.intro__short-line {
+    width: 226px;
+}
