@@ -1,0 +1,119 @@
+footer {
+    background-color: var(--noir);
+    height: bottom;
+    border-top: solid 5px var(--rouge);
+    margin-top: 100px;
+}
+
+.footer__logoLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    gap: 15px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.footer__title {
+    font-family: var(--font-secondary);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    color: var(--blanc);
+}
+
+.footer__button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 36px;
+}
+
+.footer__button {
+    border: solid 2px var(--rouge);
+    padding: 20px 37px;
+    border-radius: 20px;
+    background-color: var(--blanc);
+}
+
+.footer__contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--blanc);
+    margin-top: -20px;
+    margin-bottom: 20px;
+    
+}
+
+.footer__contact-title {
+    font-family: var(--font-secondary);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    margin-bottom: -5px;
+}
+
+.footer__contact-email {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+}
+
+
+.footer__social-links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
+
+.footer__social-title {
+    display: flex;
+    color: var(--rouge);
+    font-weight: bold;
+    text-align: center;
+}
+
+.footer__social-link {
+    align-items: center;
+    gap: 40px;
+}
+
+.footer__socialmedia {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.mentions-legal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--blanc);
+}
+
+.mentions-legal__title {
+    font-family: var(--font-secondary);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.mentions-legal__text {
+    font-size: 9px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    margin-top: -10px;
+}
+

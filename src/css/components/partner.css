@@ -6,12 +6,17 @@
     line-height: 110%;
 }
 
-.partner__imgs {
+.partners__imgs {
     padding: 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
 }
 
 .partners__img {
     width: 180px;
-    height: 102.99px;
+    height: auto;
     flex-shrink: 0;
 }
