@@ -1,0 +1,50 @@
+header {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    left: 0;
+    width: auto;
+    height: 110px;
+    flex-shrink: 0;
+    right: 0;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background: var(--noir-transparent);
+
+}
+
+.header__logoLink {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.header__logo-title {
+    font-family: 'League Gothic', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    color: var(--blanc);
+    margin-left: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+
+}
+
+.header__logo-img {
+    display: block;
+    width: 45px;
+    height: 45px;
+    margin: ;
+}
+
+
+
+.header__en {
+    display: flex;
+    right: 0 ;
+}
+

@@ -1,0 +1,40 @@
+.menu {
+    visibility: hidden;
+    position: absolute;
+    display: flex;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    background-color: black;
+    color: white;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.menu[aria-hidden="false"] {
+    visibility: visible;
+}
+
+.menu-btn {
+    background-color: transparent;
+    right: 0;
+    display: flex;
+    width: 45px;
+    height: 45px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    bottom: 15px;
+    z-index: 2;
+    border: 2px solid var(--white);
+    color: var(--white);
+}
+
+.menu-btn__bar {
+    content: "";
+    background-color: aqua;
+}
+
