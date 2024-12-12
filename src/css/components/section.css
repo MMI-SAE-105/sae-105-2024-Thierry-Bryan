@@ -3,3 +3,21 @@ section {
     padding-right: 25px;
 }
 
+.section__title {
+    font-family: var(--font-secondary);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    color: var(--rouge);
+    margin-bottom: 0px;
+}
+
+.section__chapo {
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 160%;
+    margin-bottom: 20px;
+
+}

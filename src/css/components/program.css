@@ -1,0 +1,13 @@
+.program {
+    margin-left: -25px;
+
+}
+.program__img {
+    width: 200px;
+    height: auto;
+    flex-shrink: 0;
+}
+
+.program__day {
+    display: flex;
+}
