@@ -5,7 +5,7 @@
     align-items: center;
     justify-content: center;
     margin: 16px;
-
+        z-index: 0;
 }
 
 .carousel__button {
@@ -14,20 +14,14 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid;
+    border: 1px solid var(--noir);
     border-radius: 100%;
-
-}
-
-.carousel__button--prev {
-    transform: rotate(180deg);
-    position: relative;
+    background-color: var(--blanc);
 
 }
 
 .carousel__button--next {
     display: flex;
-    position: relative;
 
 }
 
