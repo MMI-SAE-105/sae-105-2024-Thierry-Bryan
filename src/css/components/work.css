@@ -18,19 +18,6 @@
     line-height: 110%;
 }
 
-.work__button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 36px;
-}
-
-.work__button {
-    border: solid 2px var(--rouge);
-    padding: 20px 37px;
-    border-radius: 20px;
-}
-
 .work__subtitle {
     margin-bottom: 0;
 }

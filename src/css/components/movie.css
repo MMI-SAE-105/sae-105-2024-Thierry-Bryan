@@ -70,15 +70,3 @@
     line-height: 110%;
 }
 
-.movie__button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 40px;
-}
-
-.movie__button {
-    border: solid 2px var(--rouge);
-    padding: 20px 37px;
-    border-radius: 20px;
-}

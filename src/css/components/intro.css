@@ -6,20 +6,6 @@
     line-height: 110%;
 }
 
-.intro__container-btn {
-    border: solid 2px var(--rouge);
-    padding: 20px 37px;
-    border-radius: 20px;
-}
-
-.intro__container {
-    display: flex;
-    justify-content: center;
-    margin-top: 36px;
-    margin-bottom: 36px;
-
-}
-
 .intro__description {
     font-size: 15px;
     font-style: normal;

@@ -1,0 +1,21 @@
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 36px;
+}
+
+.button {
+    border: solid 2px var(--rouge);
+    padding: 20px 37px;
+    border-radius: 20px;
+    background-color: var(--blanc);
+    text-decoration: none;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1.08px;
+    color: var(--noir);
+    font-weight: 700;
+}

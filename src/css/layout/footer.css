@@ -23,20 +23,6 @@ footer {
     color: var(--blanc);
 }
 
-.footer__button-container {
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-    margin-bottom: 36px;
-}
-
-.footer__button {
-    border: solid 2px var(--rouge);
-    padding: 20px 37px;
-    border-radius: 20px;
-    background-color: var(--blanc);
-}
-
 .footer__contact {
     display: flex;
     flex-direction: column;

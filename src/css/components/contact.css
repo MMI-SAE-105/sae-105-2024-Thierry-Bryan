@@ -78,6 +78,7 @@
     font-weight: 700;
     line-height: 160%;
     color: var(--rouge);
+    margin-bottom: -3px;
 }
 
 .contact-info__item {
@@ -89,6 +90,7 @@
     display: flex;
     justify-content: center;
     gap: 40px;
+    margin-top: 15px;
 }
 
 .contact-info__icon {
