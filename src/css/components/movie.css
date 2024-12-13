@@ -10,9 +10,8 @@
 .movie__block {
     display: flex;
     align-items: center;
-    
-
 }
+
 .movie__author {
     font-size: 13px;
     font-style: normal;
@@ -60,7 +59,8 @@
 }
 
 .movie__date {
-    width: 160px;
+    display: flex;
+    justify-content: center;
 
 }
 .movie__data {
@@ -73,4 +73,40 @@
 
 .movie__info {
     margin-right: 30px;
+}
+
+.movie-page__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-page__trailer {
+    width: 306px;
+    height: 163px;
+    margin-bottom: 40px;
+}
+
+.movie-page__poster {
+    width: 180px;
+    height: 270px;
+    flex-shrink: 0;
+    border: 2px solid var(--Rouge, #A82427);
+}
+
+.movie-page__director {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.movie-page__director-name {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+.movie-page__about {
+    margin-bottom: 40px;
 }
