@@ -8,11 +8,7 @@
 }
 
 .contact__title {
-    font-family: var(--font-secondary);
-    font-size: 2rem;
-    margin-bottom: 20px;
     text-align: center;
-    color: var(--text-color);
 }
 
 .contact__form {

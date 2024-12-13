@@ -2,3 +2,28 @@ body {
     font-family: var(--font-primary);
 }
 
+h1 {
+    font-family: var(--font-secondary);
+    color: var(--Blanc, #FFF);
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    margin-top: -90px;
+}
+
+h2 {
+    font-family: var(--font-secondary);
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+h3 {
+    font-family: var(--font-secondary);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 110%;
+    }

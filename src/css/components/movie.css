@@ -5,16 +5,12 @@
 .movies__title {
     display: flex;
     justify-content: center;
-    font-family: var(--font-secondary);
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 110%;
     margin-bottom: 0;
 }
 .movie__block {
     display: flex;
     align-items: center;
+    
 
 }
 .movie__author {
@@ -22,7 +18,7 @@
     font-style: normal;
     font-weight: 400;
     line-height: 110%;
-    padding-right: 29.62px;
+    width: 180px;
 }
 .movie__img {
     width: 180px;
@@ -55,6 +51,7 @@
 }
 
 .movie__title {
+    font-family: var(--font-primary);
     font-size: 15px;
     font-style: normal;
     font-weight: 700;
@@ -62,11 +59,18 @@
     margin-bottom: 0;
 }
 
+.movie__date {
+    width: 160px;
 
+}
 .movie__data {
     font-size: 9px;
     font-style: normal;
     font-weight: 400;
     line-height: 110%;
+    margin-top: 0;
 }
 
+.movie__info {
+    margin-right: 30px;
+}

@@ -1,18 +1,5 @@
 .jury__title {
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 110%;
-    font-family: var(--font-secondary);
     text-align: center;
-}
-
-.jury__member-name {
-    font-family: var(--font-secondary);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 110%;
 }
 
 .jury__member-bio {
@@ -31,11 +18,6 @@
 }
 
 .directors__title {
-    font-family: var(--font-secondary);
-    font-family: Impact;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 110%;
     margin-bottom: 0;
 }
@@ -59,11 +41,6 @@
 }
 
 .athletes__title {
-    font-family: var(--font-secondary);
-    font-family: Impact;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 110%;
     margin-bottom: 0;
 }

@@ -34,14 +34,6 @@
     padding-right: 15px;
 }
 
-.program__title {
-    font-family: var(--font-secondary);
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 110%;
-}
-
 .program__description {
     font-size: 15px;
     font-style: normal;
@@ -58,10 +50,6 @@
     padding: 25px;
 }
 .activities__title {
-    font-family: var(--font-secondary);
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 400;
     line-height: 110%;
     margin-bottom: 0;
 }
