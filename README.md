@@ -6,7 +6,7 @@
 - NOM : THIERRY
 - PRÉNOM : Bryan 
 - GROUPE : C2
-- URL du site :
+- URL du site : https://spiffy-longma-bc40cd.netlify.app
 - URL FIGMA : https://www.figma.com/design/Vewrnlr1FBSGxwxKFl4Esw/Bryan-Thierry-SAE-106-modification?node-id=19-293&m=dev
 
 ## Sujet
