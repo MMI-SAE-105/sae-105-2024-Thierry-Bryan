@@ -12,11 +12,15 @@
     flex-direction: column;
     justify-content: space-between;
     padding: 50px;
+    transition: opacity 0.5s ease-in-out;
+    opacity: 0;
+  
 }
 
 .menu[aria-hidden="false"] {
     visibility: visible;
     transform: translateX(0);
+    opacity: 1;
 }
 
 .menu-btn {
@@ -88,8 +92,10 @@
     line-height: 110%;
     color: var(--noir);
     font-weight: bold;
+    
+ }
 
-}
+
 .menu__social {
     display: flex;
     align-items: center;
